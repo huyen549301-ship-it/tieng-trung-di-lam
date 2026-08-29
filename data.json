@@ -1,1098 +1,268 @@
 [
-    {
+  {
     "lesson_id": 1.1,
     "vocabulary": [
-      {"word": "chào...", "meaning": "……你好"},
-      {"word": "xin lỗi", "meaning": "对不起"},
-    {"word": "cảm ơn", "meaning": "谢谢"},
-    {"word": "tên là...","meaning": "叫……"},
-    {"word": "người Trung Quốc","meaning": "中国人"},
-    {"word": "người Việt Nam","meaning": "越南人"},
-    {"word": "người nước nào","meaning": "哪国人"},
-    {"word": "người Anh", "meaning": "英国人"},
-    {"word": "người Mỹ", "meaning": "美国人"},
-    {"word": "người Đài Loan", "meaning": "台湾人"},
-    {"word": "người Nhật Bản", "meaning": "日本人"},
-    {"word": "là", "meaning": "是"},
-    {"word": "rất", "meaning": "很"},
-    {"word": "vui", "meaning": "高兴、快乐、开心"},
-    {"word": "gặp", "meaning": "见"},
-    {"word": "rất vui được gặp bạn", "meaning": "很高兴见到你"},
-    {"word": "chào mọi người", "meaning": "大家好"},
-    {"word": "chào cô", "meaning": "(女)老师好"},
-    {"word": "chào thầy", "meaning": "(男)老师好"},
-    {"word": "tên là gì", "meaning": "叫什么名字"},
-    {"word": "không sao", "meaning": "没关系、没事"},
-    {"word": "không có gì", "meaning": "不客气"},
-    {"word": "đừng khách sáo", "meaning": "别客气"}
+      {"word": "", "meaning": ""},
+      {"word": "", "meaning": ""}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]},
-        {"word": "我是越南人", "meaning_words": ["Tôi", "là", "người", "Việt Nam"]},
-        {"word": "我是中国人", "meaning_words": ["Tôi", "là", "người", "Trung Quốc"]},
-        {"word": "我是英国人", "meaning_words": ["Tôi", "là", "người", "Anh"]},
-        {"word": "我是美国人", "meaning_words": ["Tôi", "là", "người", "Mỹ"]},
-        {"word": "我是台湾人", "meaning_words": ["Tôi", "là", "người", "Đài Loan"]},
-        {"word": "我是日本人", "meaning_words": ["Tôi", "là", "người", "Nhật Bản"]},
-        {"word": "很高兴认识你", "meaning_words": ["rất", "vui", "được", "gặp", "bạn"]},
-        {"word": "大家好", "meaning_words": ["chào", "mọi", "người"]},
-        {"word": "你叫什么名字", "meaning_words": ["Bạn", "tên", "là", "gì"]},
-        {"word": "不客气", "meaning_words": ["không", "có", "gì"]},
-        {"word": "别客气", "meaning_words": ["đừng", "khách", "sáo"]},
-        {"word": "谢谢", "meaning_words": ["cảm", "ơn"]},
-        {"word": "对不起", "meaning_words": ["xin", "lỗi"]},
-        {"word": "没关系", "meaning_words": ["không", "sao"]}
+      {"word": "没关系", "meaning_words": ["không", "sao"]}
     ]
-    },
-    {
+  },
+  {
     "lesson_id": 1.2,
     "vocabulary": [
-    {"word": "bác", "meaning": "大伯/伯母(父母的兄姐，不分性别)"},
-    {"word": "cô", "meaning": "姑姑/阿姨(比母亲年轻的女性，或女老师)"},
-    {"word": "chú", "meaning": "叔叔(比父亲年轻的男性)"},
-    {"word": "ông", "meaning": "爷爷/外公(或对老人的尊称)"},
-    {"word": "bà", "meaning": "奶奶/外婆(或对老人的尊称)"},
-    {"word": "anh", "meaning": "哥哥(或对年长男性的尊称)"},
-    {"word": "chị", "meaning": "姐姐(或对年长女性的尊称)"},
-    {"word": "em", "meaning": "弟弟/妹妹(不分性别)"},
-    {"word": "bạn", "meaning": "朋友/你(同龄人之间)"},
-    {"word": "cháu", "meaning": "侄子/孙辈/晚辈(自称或称呼小孩子)"},
-    {"word": "chúng mình", "meaning": "咱们(包含听话者，用于亲密关系)"},
-    {"word": "chúng tôi", "meaning": "我们(不包含听话者，正式/中性)"},
-    {"word": "các bạn", "meaning": "你们(同龄群体，不分性别)"},
-    {"word": "nó", "meaning": "他/她/它(不太礼貌，仅用于极亲密关系或物)"},
-    {"word": "các anh", "meaning": "你们(哥哥辈，纯男性)"},
-    {"word": "các chị", "meaning": "你们(姐姐辈，纯女性)"},
-    {"word": "mọi người", "meaning": "大家(不分性别)"},
-    {"word": "anh ấy", "meaning": "他(哥哥辈)"},
-    {"word": "chị ấy", "meaning": "她(姐姐辈)"},
-    {"word": "bạn ấy", "meaning": "他/她(同龄人)"},
-    {"word": "các anh ấy", "meaning": "他们(哥哥辈，纯男性)"},
-    {"word": "các chị ấy", "meaning": "她们(姐姐辈，纯女性)"}, 
-    {"word": "các bạn ấy", "meaning": "他们/她们(同龄群体，不分性别)"}, 
-    {"word": "họ", "meaning": "他们(最通用的第三人称复数，中性)"}
+      {"word": "", "meaning": ""},
+      {"word": "", "meaning": ""}
     ]
-    },
-
-    {
+  },
+  {
     "lesson_id": 2.1,
     "vocabulary": [
-    {"word": "dạy", "meaning": "教"},
-    {"word": "giáo viên", "meaning": "老师"},
-    {"word": "Hàn Quốc", "meaning": "韩国"},
-    {"word": "bệnh viện", "meaning": "医院"},
-    {"word": "vâng", "meaning": "是的"},
-    {"word": "bác sĩ", "meaning": "医生"},
-    {"word": "làm việc", "meaning": "上班、工作"},
-    {"word": "trung tâm", "meaning": "中心、培训班"},
-    {"word": "tiếng Việt", "meaning": "越南语"},
-    {"word": "tiếng Trung", "meaning": "中文"},
-    {"word": "làm nghề gì?", "meaning": "做什么工作？"},
-    {"word": "là ... phải không?", "meaning": "是……吗？"},
-    {"word": "... phải không?", "meaning": "……是吗？"},
-    {"word": "người Việt", "meaning": "越南人"},
-    {"word": "người Trung", "meaning": "中国人"},
-    {"word": "người Đài", "meaning": "台湾人"},
-    {"word": "người Hàn", "meaning": "韩国人"},
-    {"word": "tiếng Hàn", "meaning": "韩语"}
+      {"word": "", "meaning": ""},
+      {"word": "", "meaning": ""}
     ],
     "arrange_sentences": [
       {"word": "我是老师", "meaning_words": ["tôi", "là", "giáo viên"]},
-        {"word": "我是医生", "meaning_words": ["tôi", "là", "bác sĩ"]},
-        {"word": "我在医院工作", "meaning_words": ["tôi", "làm", "ở", "bệnh viện"]},
-        {"word": "你做什么工作", "meaning_words": ["bạn", "làm", "nghề gì"]},
-        {"word": "你是韩国人吗", "meaning_words": ["bạn", "là", "người", "Hàn Quốc", "phải không"]},
-        {"word": "我在培训中心教书", "meaning_words": ["tôi", "dạy", "ở", "trung tâm"]},
-        {"word": "我不是老师", "meaning_words": ["tôi", "không phả", "giáo viên"]},
-        {"word": "我不是医生", "meaning_words": ["tôi", "không phải", "bác sĩ"]},
-        {"word": "我说越南语", "meaning_words": ["tôi", "nói", "tiếng Việt"]},
-        {"word": "说中文吧", "meaning_words": ["nói", "tiếng Trung", "đi"]},
-        {"word": "说越南语吧", "meaning_words": ["nói", "tiếng Việt", "đi"]},
-        {"word": "教我越南语吧", "meaning_words": ["dạy", "tôi", "tiếng Việt", "đi"]},
-        {"word": "我在越南工作", "meaning_words": ["tôi", "làm việc", "ở", "Việt Nam"]},
-        {"word": "我在中国公司工作", "meaning_words": ["tôi", "làm việc", "ở", "công ty", "Trung Quốc"]},
-        {"word": "你是美国人吗", "meaning_words": ["bạn", "có phải", "là", "người Mỹ", "không"]},
-        {"word": "你是英国人吗", "meaning_words": ["bạn", "là ", "người Anh", "phải không"]},
-        {"word": "你在哪家公司工作", "meaning_words": ["bạn", "làm việc", "ở đâu"]},
-        {"word": "我在越南工作，你呢", "meaning_words": ["tôi", "làm việc", "ở", "Việt Nam", "còn bạn?"]},
-        {"word": "是的，我是越南人", "meaning_words": ["vâng", "tôi", "là", "người", "Việt Nam"]}
+      {"word": "我是医生", "meaning_words": ["tôi", "là", "bác sĩ"]}
     ]
-    },
-        
-    {
+  },
+  {
     "lesson_id": 2.2,
     "vocabulary": [
-    {"word": "nghề", "meaning": "职业"},
-    {"word": "y tá", "meaning": "护士"},
-    {"word": "đầu bếp", "meaning": "厨师"},
-    {"word": "sinh viên", "meaning": "大学生"},
-    {"word": "nông dân", "meaning": "农民"},
-    {"word": "giám đốc", "meaning": "经理"},
-    {"word": "công nhân", "meaning": "工人"},
-    {"word": "họa sĩ", "meaning": "画家"},
-    {"word": "học sinh", "meaning": "学生"},
-    {"word": "kỹ sư", "meaning": "工程师"},
-    {"word": "nhân viên", "meaning": "员工"},
-    {"word": "phiên dịch", "meaning": "翻译"}
+      {"word": "", "meaning": ""},
+      {"word": "", "meaning": ""}
     ],
     "arrange_sentences": [
-      {"word": "我是护士", "meaning_words": ["Tôi", "tên là", "Lan"]},
-        {"word": "我是厨师", "meaning_words": ["", "", ""]},
-        {"word": "我是大学生", "meaning_words": ["", "", ""]},
-        {"word": "我是农民", "meaning_words": ["", "", ""]},
-        {"word": "我是经理", "meaning_words": ["", "", ""]},
-        {"word": "我是工人", "meaning_words": ["", "", ""]},
-        {"word": "我是画家", "meaning_words": ["", "", ""]},
-        {"word": "我是学生", "meaning_words": ["", "", ""]},
-        {"word": "我是工程师", "meaning_words": ["", "", ""]},
-        {"word": "我是员工", "meaning_words": ["", "", ""]},
-        {"word": "我是翻译员", "meaning_words": ["", "", ""]}
+      {"word": "我是护士", "meaning_words": ["Tôi", "là", "y sĩ"]},
+      {"word": "我是翻译员", "meaning_words": ["Tôi", "là", "phiên dịch viên"]}
     ]
-    },
-    {
+  },
+  {
     "lesson_id": 3,
     "vocabulary": [
-    {"word": "lâu lắm không gặp", "meaning": "好久不见"},
-    {"word": "cảm ơn", "meaning": "谢谢"},
-    {"word": "khỏe", "meaning": "健康、身体好"},
-    {"word": "bình thường", "meaning": "一般般"},
-    {"word": "đi", "meaning": "去"},
-    {"word": "đâu", "meaning": "哪里"},
-    {"word": "đang", "meaning": "正在"},
-    {"word": "ở", "meaning": "在"},
-    {"word": "đi làm", "meaning": "去上班"},
-    {"word": "đại học", "meaning": "大学"},
-    {"word": "bây giờ", "meaning": "现在"},
-    {"word": "ngân hàng", "meaning": "银行"},
-    {"word": "con trai", "meaning": "儿子"},
-    {"word": "con gái", "meaning": "女儿"},
-    {"word": "bao nhiêu tuổi?", "meaning": "多大？"},
-    {"word": "có ... không?", "meaning": "有……吗？"},
-    {"word": "có", "meaning": "有"},
-    {"word": "không có", "meaning": "没有"},
-    {"word": "xe máy", "meaning": "摩托车"},
-    {"word": "ăn phở", "meaning": "吃河粉"},
-    {"word": "không", "meaning": "不"},
-    {"word": "đã", "meaning": "已经"},
-    {"word": "sẽ", "meaning": "将会"},
-    {"word": "và", "meaning": "和"},
-    {"word": "còn", "meaning": "而"},
-    {"word": "còn bạn?", "meaning": "你呢？"},
-    {"word": "quốc gia", "meaning": "国家"},
-    {"word": "có khỏe không?", "meaning": "身体好吗？"}
+      {"word": "lâu lắm không gặp", "meaning": "好久不见"},
+      {"word": "quốc gia", "meaning": "国家"},
+      {"word": "có khỏe không?", "meaning": "身体好吗？"}
     ],
     "arrange_sentences": [
       {"word": "你身体好吗", "meaning_words": ["bạn", "có", "khỏe", "không"]},
-        {"word": "好久不见", "meaning_words": ["lâu", "lắm", "không gặp"]},
-        {"word": "我身体还好", "meaning_words": ["tôi", "bình thường"]},
-        {"word": "你去哪儿呀", "meaning_words": ["bạn", "đi đâu", "đấy"]},
-        {"word": "我去银行", "meaning_words": ["tôi", "đi", "ngân hàng"]},
-        {"word": "这是我儿子", "meaning_words": ["đây là", "con trai", "tôi"]},
-        {"word": "我在吃饭", "meaning_words": ["tôi", "đang", "ăn cơm"]},
-        {"word": "我在银行工作", "meaning_words": ["tôi", "làm việc", "ở", "ngân hàng"]},
-        {"word": "我在大学教书", "meaning_words": ["tôi", "dạy", "ở", "trường đại học"]},
-        {"word": "你正在哪里工作", "meaning_words": ["bạn", "đang", "làm việc", "ở đâu"]},
-        {"word": "不太好吃", "meaning_words": ["không", "ngon", "lắm"]},
-        {"word": "你在干什么呢", "meaning_words": ["bạn", "đang", "làm gì", "vậy"]},
-        {"word": "你多大了", "meaning_words": ["bạn", "bao nhiêu", "tuổi"]},
-        {"word": "我30岁", "meaning_words": ["tôi", "30", "tuổi"]},
-        {"word": "你有摩托车吗", "meaning_words": ["bạn", "có", "xe máy", "không"]},
-        {"word": "你吃河粉吗", "meaning_words": ["bạn", "có", "ăn", "phở", "không"]},
-        {"word": "我已经回家了", "meaning_words": ["tôi", "đã", "về nhà", "rồi"]},
-        {"word": "明天我回来的", "meaning_words": ["ngày mai", "tôi", "sẽ", "đến"]},
-        {"word": "我在学越南语", "meaning_words": ["tôi", "đang", "học", "tiếng Việt"]},
-        {"word": "我和他都是中国人", "meaning_words": ["tôi", "và", "anh ấy", "đều", "là", "người Trung Quốc"]},
-        {"word": "我很好，你呢", "meaning_words": ["tôi", "rất", "khỏe", "còn bạn"]},
-        {"word": "这是你儿子吗", "meaning_words": ["đây là", "con trai", "bạn", "à?"]}
+      {"word": "这是你儿子吗", "meaning_words": ["đây là", "con trai", "bạn", "à?"]}
     ]
-    },
-    {
+  },
+  {
     "lesson_id": 4.1,
     "vocabulary": [
-    {"word": "ngày mai", "meaning": "明天"},
-    {"word": "bận", "meaning": "忙"},
-    {"word": "muốn", "meaning": "想要"},
-    {"word": "mời", "meaning": "请"},
-    {"word": "bức tranh", "meaning": "画册"},
-    {"word": "mua", "meaning": "买"},
-    {"word": "mới", "meaning": "新、刚"},
-    {"word": "đến", "meaning": "到、来"},
-    {"word": "nhà", "meaning": "房子"},
-    {"word": "rộng", "meaning": "大"},
-    {"word": "đẹp", "meaning": "好看、漂亮"},
-    {"word": "giới thiệu", "meaning": "介绍"},
-    {"word": "mới học", "meaning": "刚学"},
-    {"word": "mới mua", "meaning": "刚买"},
-    {"word": "mới đi", "meaning": "刚去"},
-    {"word": "nhà mới", "meaning": "新房子"},
-    {"word": "phòng khách", "meaning": "客厅"},
-    {"word": "phòng ngủ", "meaning": "卧室"},
-    {"word": "nhà bếp", "meaning": "厨房"},
-    {"word": "phòng sách", "meaning": "书房"},
-    {"word": "phòng vệ sinh", "meaning": "卫生间"},
-    {"word": "văn phòng", "meaning": "办公室"},
-    {"word": "có chuyện gì?", "meaning": "有什么事？"},
-    {"word": "phòng", "meaning": "房间"}
+      {"word": "ngày mai", "meaning": "明天"},
+      {"word": "bận", "meaning": "忙"},
+      {"word": "phòng", "meaning": "房间"}
     ],
     "arrange_sentences": [
       {"word": "明天我忙了", "meaning_words": ["mai", "tôi", "bận", "rồi"]},
-        {"word": "我想请你吃饭", "meaning_words": ["tôi", "muốn", "mời", "bạn", "ăn cơm"]},
-        {"word": "来我家玩吧", "meaning_words": ["đến", "nhà tôi", "chơi", "đi"]},
-        {"word": "她很漂亮", "meaning_words": ["cô ấy", "rất", "đẹp"]},
-        {"word": "我很帅", "meaning_words": ["tôi", "rất", "đẹp trai"]},
-        {"word": "我房子很大", "meaning_words": ["nhà tôi", "rất", "rộng"]},
-        {"word": "最近你忙吗", "meaning_words": ["dạo này", "bạn", "có", "bận", "không"]},
-        {"word": "我要买一幅画", "meaning_words": ["tôi", "muốn", "mua", "1 bức tranh"]},
-        {"word": "我来介绍一下", "meaning_words": ["tôi", "xin", "giới thiệu", "một chút"]},
-        {"word": "明天见", "meaning_words": ["ngày mai", "gặp", "lại"]},
-        {"word": "明天要上班吗", "meaning_words": ["ngày mai", "có", "đi làm", "không"]},
-        {"word": "最近我很忙", "meaning_words": ["dạo này", "tôi", "rất", "bận"]},
-        {"word": "你要吃什么", "meaning_words": ["bạn", "muốn", "ăn gì"]},
-        {"word": "这是我的新同事", "meaning_words": ["đây là", "đồng nghiệp", "mới", "của tôi"]},
-        {"word": "那是我的新房子", "meaning_words": ["đó là", "nhà mới", "của", "tôi"]},
-        {"word": "你家有几口人", "meaning_words": ["nhà bạn", "có", "mấy", "người"]},
-        {"word": "我家有3口人", "meaning_words": ["nhà", "tôi", "có", "3 người"]},
-        {"word": "那个人是谁", "meaning_words": ["người đó", "là", "ai"]},
-        {"word": "那只小猫很胖", "meaning_words": ["con mèo", "đó", "rất", "béo"]},
-        {"word": "那个人很高", "meaning_words": ["người đó", "rất", "cao"]},
-        {"word": "那是我的手机", "meaning_words": ["kia", "là", "điện thoại", "của", "tôi"]},
-        {"word": "那是谁的电脑", "meaning_words": ["kia", "là", "máy tính", "của", "ai"]},
-        {"word": "那是我的同事", "meaning_words": ["kia", "là", "đồng nghiệp", "của", "tôi"]},
-        {"word": "这是客厅", "meaning_words": ["đây", "là", "phòng khách"]},
-        {"word": "那是卧室", "meaning_words": ["kia", "là", "phòng ngủ"]},
-        {"word": "我是泰国人", "meaning_words": ["tôi", "là", "người", "Thái Lan"]},
-        {"word": "有什么事吗", "meaning_words": ["có", "chuyện gì", "à"]}
+      {"word": "有什么事吗", "meaning_words": ["có", "chuyện gì", "à"]}
     ]
-    },
-    {
+  },
+  {
     "lesson_id": 4.2,
     "vocabulary": [
-    {"word": "cái", "meaning": "个（用于东西）"},
-    {"word": "con", "meaning": "只（用于动物）"},
-    {"word": "quả", "meaning": "个（用于水果）"},
-    {"word": "quyển", "meaning": "本（用于书本）"},
-    {"word": "tờ", "meaning": "张（用于纸张）"},
-    {"word": "bức", "meaning": "幅（用于画册、墙）"},
-    {"word": "củ", "meaning": "个（用于根茎类蔬菜）"}
+      {"word": "cái", "meaning": "个（用于东西）"},
+      {"word": "con", "meaning": "只（用于动物）"},
+      {"word": "củ", "meaning": "个（用于根茎类蔬菜）"}
     ]
-    },
-    {
-    "lesson_id": 4.3,
-    "vocabulary": [
-    {"word": "con mèo này", "meaning": "这只猫"},
-    {"word": "con chó kia", "meaning": "那只狗"},
-    {"word": "cái này", "meaning": "这个"},
-    {"word": "cái kia", "meaning": "那个"},
-    {"word": "người này", "meaning": "这个人"},
-    {"word": "người kia", "meaning": "那个人"},
-    {"word": "bố tôi", "meaning": "我爸爸"},
-    {"word": "...của tôi", "meaning": "我的……"},
-    {"word": "...của ai?", "meaning": "谁的……？"},
-    {"word": "...của bạn", "meaning": "你的……"},
-    {"word": "của anh ấy", "meaning": "他的……"},
-    {"word": "của cô ấy", "meaning": "她的……"},
-    {"word": "đây là...", "meaning": "这是……"},
-    {"word": "kia là...", "meaning": "那是……"},
-    {"word": "đó là...", "meaning": "那是……"}
-    ]
-    },
-    
-    {
-    "lesson_id": 4.4,
-    "vocabulary": [
-    {"word": "cao", "meaning": "高"},
-    {"word": "thấp", "meaning": "矮"},
-    {"word": "dài", "meaning": "长"},
-    {"word": "ngắn", "meaning": "短"},
-    {"word": "rộng", "meaning": "宽、大"},
-    {"word": "chật", "meaning": "紧（指衣服）"},
-    {"word": "to", "meaning": "大"},
-    {"word": "nhỏ", "meaning": "小"},
-    {"word": "nhiều", "meaning": "多"},
-    {"word": "ít", "meaning": "少"},
-    {"word": "lạnh", "meaning": "冷"},
-    {"word": "nóng", "meaning": "热"},
-    {"word": "gần", "meaning": "近"},
-    {"word": "xa", "meaning": "远"},
-    {"word": "gầy", "meaning": "瘦"},
-    {"word": "béo", "meaning": "胖"}
-    ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 5.1,
     "vocabulary": [
-    {"word": "...thử", "meaning": "试试…"},
-    {"word": "đội thử", "meaning": "试戴"},
-    {"word": "mặc thử", "meaning": "试穿"},
-    {"word": "ăn thử", "meaning": "常常"},
-    {"word": "giảm giá", "meaning": "降价"},
-    {"word": "bớt", "meaning": "减少"},
-    {"word": "rẻ", "meaning": "便宜"},
-    {"word": "đắt", "meaning": "贵"},
-    {"word": "cỡ / size", "meaning": "尺码"},
-    {"word": "đúng giá", "meaning": "定价"},
-    {"word": "mặc cả", "meaning": "还价"},
-    {"word": "bán", "meaning": "卖"},
-    {"word": "lấy", "meaning": "买、拿"},
-    {"word": "cái khác", "meaning": "别的"},
-    {"word": "màu khác", "meaning": "别的颜色"},
-    {"word": "bao nhiêu ", "meaning": "多少？"},
-    {"word": "cho tôi...", "meaning": "给我……"}
+      {"word": "...thử", "meaning": "试试…"},
+      {"word": "đội thử", "meaning": "试戴"},
+      {"word": "cho tôi...", "meaning": "给我……"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 5.2,
     "vocabulary": [
-    {"word": "đội　mũ", "meaning": "戴帽子"},
-    {"word": "mũ", "meaning": "帽子"},
-    {"word": "mặc", "meaning": "穿"},
-    {"word": "quần", "meaning": "裤子"},
-    {"word": "váy", "meaning": "裙子"},
-    {"word": "đi giày", "meaning": "穿鞋"},
-    {"word": "đeo đồng hồ", "meaning": "戴手表"},
-    {"word": "thắt cà vạt", "meaning": "系领带"},
-    {"word": "cởi", "meaning": "脱"},
-    {"word": "áo", "meaning": "衣服"},
-    {"word": "quàng khăn", "meaning": "戴围巾"}
+      {"word": "đội mũ", "meaning": "戴帽子"},
+      {"word": "mũ", "meaning": "帽子"},
+      {"word": "áo", "meaning": "衣服"},
+      {"word": "quàng khăn", "meaning": "戴围巾"}
     ]
-    },
-    
-    {
-    "lesson_id": 5.3,
-    "vocabulary": [
-    {"word": "màu gì?", "meaning": "什么颜色？"},
-    {"word": "vàng", "meaning": "黄色"},
-    {"word": "đỏ", "meaning": "红色"},
-    {"word": "trắng", "meaning": "白色"},
-    {"word": "tím", "meaning": "紫色"},
-    {"word": "nâu", "meaning": "棕色"},
-    {"word": "xanh dương", "meaning": "蓝色"},
-    {"word": "xanh lá", "meaning": "绿色"},
-    {"word": "hồng", "meaning": "粉红色"},
-    {"word": "cam", "meaning": "橙色"},
-    {"word": "xám", "meaning": "灰色"},
-    {"word": "đen", "meaning": "黑色"}
-    ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 6.1,
     "vocabulary": [
-    {"word": "bây giờ", "meaning": "现在"},
-    {"word": "mấy", "meaning": "几"},
-    {"word": "giờ", "meaning": "点"},
-    {"word": "phút", "meaning": "分"},
-    {"word": "giây", "meaning": "秒"},
-    {"word": "tiếng", "meaning": "小时"},
-    {"word": "lúc 8 giờ", "meaning": "在8点"},
-    {"word": "8 rưỡi", "meaning": "8点半"},
-    {"word": "cuộc họp", "meaning": "会议"},
-    {"word": "họp", "meaning": "开会"},
-    {"word": "về nhà", "meaning": "回家"},
-    {"word": "thường", "meaning": "常、经常"},
-    {"word": "tối", "meaning": "晚上"},
-    {"word": "sáng", "meaning": "早上"},
-    {"word": "trưa", "meaning": "中午"},
-    {"word": "chiều", "meaning": "下午"},
-    {"word": "giám đốc", "meaning": "经理"},
-    {"word": "kết thúc", "meaning": "结束"},
-    {"word": "phải", "meaning": "必须、要"},
-    {"word": "đón con", "meaning": "接孩子"},
-    {"word": "8 giờ sáng", "meaning": "早上点"},
-    {"word": "12 giờ trưa", "meaning": "中午12点"},
-    {"word": "5 giờ chiều", "meaning": "下午5点"},
-    {"word": "8 giờ tối", "meaning": "晚上8点"},
-    {"word": "12 giờ đêm", "meaning": "半夜12点"},
-    {"word": "A hay là B?", "meaning": "A还是B？"}
-    ],
-    "arrange_sentences": [
-      {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
+      {"word": "在", "meaning": "đang"},
+      {"word": "聊天", "meaning": "tám chuyện"},
+      {"word": "正在", "meaning": "đang"},
+      {"word": "干", "meaning": "làm"},
+      {"word": "开会", "meaning": "họp"},
+      {"word": "学习", "meaning": "học, học tập"},
+      {"word": "公司", "meaning": "công ty"},
+      {"word": "工厂", "meaning": "nhà máy"},
+      {"word": "公司大门", "meaning": "cổng công ty"},
+      {"word": "保安室", "meaning": "phòng bảo vệ"},
+      {"word": "车库", "meaning": "nhà xe"},
+      {"word": "食堂", "meaning": "nhà ăn"},
+      {"word": "办公楼", "meaning": "tòa văn phòng"},
+      {"word": "会议室", "meaning": "phòng họp"},
+      {"word": "办公室", "meaning": "văn phòng"},
+      {"word": "饭堂", "meaning": "nhà ăn"},
+      {"word": "楼", "meaning": "lầu, tòa nhà"},
+      {"word": "宿舍楼", "meaning": "tòa ký túc"},
+      {"word": "卫生间", "meaning": "nhà vệ sinh"},
+      {"word": "仓库", "meaning": "nhà kho"},
+      {"word": "车间", "meaning": "xưởng"}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 6.2,
     "vocabulary": [
-    {"word": "đi", "meaning": "去"},
-    {"word": "đến", "meaning": "到、来"},
-    {"word": "ăn", "meaning": "吃"},
-    {"word": "ngủ", "meaning": "睡"},
-    {"word": "xem", "meaning": "看"},
-    {"word": "học", "meaning": "学"},
-    {"word": "làm", "meaning": "做"},
-    {"word": "mua", "meaning": "买"},
-    {"word": "bán", "meaning": "卖"},
-    {"word": "hiểu", "meaning": "懂"},
-    {"word": "nghe", "meaning": "听"},
-    {"word": "nói", "meaning": "说"},
-    {"word": "đọc", "meaning": "读"},
-    {"word": "viết", "meaning": "写"},
-    {"word": "cần", "meaning": "需要"},
-    {"word": "muốn", "meaning": "想要"},
-    {"word": "thích", "meaning": "喜欢"},
-    {"word": "yêu", "meaning": "爱"},
-    {"word": "biết", "meaning": "知道、会"}
+      {"word": "前面", "meaning": "phía trước"},
+      {"word": "后面", "meaning": "phía sau"},
+      {"word": "中间", "meaning": "giữa"},
+      {"word": "旁边", "meaning": "bên cạnh"},
+      {"word": "对面", "meaning": "đối diện"},
+      {"word": "上面", "meaning": "bên trên"},
+      {"word": "下面", "meaning": "bên dưới"},
+      {"word": "左边", "meaning": "bên trái"},
+      {"word": "右边", "meaning": "bên phải"},
+      {"word": "附近", "meaning": "lân cận, xung quanh"},
+      {"word": "里面", "meaning": "bên trong"},
+      {"word": "外面", "meaning": "bên ngoài"}
+    ],
+    "arrange_sentences": [
+      {"word": "Tôi đang nói chuyện với đồng nghiệp", "meaning_words": ["我", "在", "跟", "同事", "聊天"]},
+      {"word": "Tôi đang học tiếng Trung", "meaning_words": ["我", "在", "学习", "中文"]},
+      {"word": "Tôi đang họp với giám đốc", "meaning_words": ["我", "在", "跟", "经理", "开会"]},
+      {"word": "Công ty tôi có 2 cái nhà máy", "meaning_words": ["我", "公司", "有", "两个", "工厂"]},
+      {"word": "Công ty bạn có mấy cái xưởng", "meaning_words": ["你", "公司", "有", "几个", "车间"]},
+      {"word": "Phòng bảo vệ ở bên phải cổng công ty", "meaning_words": ["保安室", "在", "公司大门", "的", "右边"]},
+      {"word": "Nhà ăn ở bên trái của xưởng số 1", "meaning_words": ["饭堂", "在", "一号车间", "的", "左边"]},
+      {"word": "Nhà xe ở đối diện tòa văn phòng", "meaning_words": ["车库", "在", "办公楼", "对面"]},
+      {"word": "phòng họp số 2 ở tầng 2", "meaning_words": ["二号", "会议室", "在", "二楼"]},
+      {"word": "Tòa văn phòng có 3 tầng", "meaning_words": ["办公楼", "有", "3", "层(céng)楼"]},
+      {"word": "Văn phòng của tổng giám đốc ở bên cạnh phòng họp", "meaning_words": ["总(zǒng)经理", "的", "办公室", "在", "会议室", "旁边"]},
+      {"word": "tòa ký túc ở giữa nhà kho và nhà xe", "meaning_words": ["宿舍楼", "在", "仓库", "和", "车库", "中间"]},
+      {"word": "xưởng 2 ở giữa xưởng 1 và xưởng 3", "meaning_words": ["二号车间", "在", "一号车间", "和", "三号车间", "的", "中间"]},
+      {"word": "trong nhà máy có 3 cái xưởng", "meaning_words": ["工厂", "里(面)", "有", "3个", "车间"]},
+      {"word": "Bạn đang làm gì", "meaning_words": ["你", "在", "干", "什么", "啊"]},
+      {"word": "Mai họp lúc mấy giờ", "meaning_words": ["明天", "几点", "开会"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 6.3,
     "vocabulary": [
-    {"word": "thức dậy", "meaning": "起床"},
-    {"word": "ngủ dậy", "meaning": "起床"},
-    {"word": "ăn sáng", "meaning": "吃早饭"},
-    {"word": "ăn trưa", "meaning": "吃午饭"},
-    {"word": "ăn tối", "meaning": "吃晚饭"},
-    {"word": "nghỉ ngơi", "meaning": "休息"},
-    {"word": "ngủ trưa", "meaning": "睡午觉"},
-    {"word": "đi học", "meaning": "去学校、上课"},
-    {"word": "tan học", "meaning": "下课"},
-    {"word": "làm bài　tập", "meaning": "做作业"},
-    {"word": "xem ti vi", "meaning": "看电视"},
-    {"word": "đọc sách", "meaning": "看书"},
-    {"word": "đi ngủ", "meaning": "睡觉"},
-    {"word": "đi làm", "meaning": "上班"},
-    {"word": "tan làm", "meaning": "下班"},
-    {"word": "tăng ca", "meaning": "加班"},
-    {"word": "đi tắm", "meaning": "洗澡"},
-    {"word": "đi siêu thị", "meaning": "去超市"},
-    {"word": "học tiếng Việt", "meaning": "学越南语"},
-    {"word": "đi hẹn hò", "meaning": "约会"},
-    {"word": "đi mua đồ", "meaning": "去买东西"}
+      {"word": "星期", "meaning": "tuần"},
+      {"word": "星期一", "meaning": "thứ 2"},
+      {"word": "星期二", "meaning": "thứ 3"},
+      {"word": "星期三", "meaning": "thứ 4"},
+      {"word": "星期四", "meaning": "thứ 5"},
+      {"word": "星期五", "meaning": "thứ 6"},
+      {"word": "星期六", "meaning": "thứ 7"},
+      {"word": "星期天", "meaning": "chủ nhật"},
+      {"word": "星期日", "meaning": "chủ nhật"},
+      {"word": "这个星期", "meaning": "tuần này"},
+      {"word": "下个星期", "meaning": "tuần sau"},
+      {"word": "上个星期", "meaning": "tuần trước"},
+      {"word": "多久", "meaning": "bao lâu"},
+      {"word": "多长时间", "meaning": "bao lâu"},
+      {"word": "一个小时", "meaning": "1 tiếng đồng hồ"},
+      {"word": "记得", "meaning": "nhớ"},
+      {"word": "忘记", "meaning": "quên"}
+    ],
+    "arrange_sentences": [
+      {"word": "Hôm nay là thứ mấy", "meaning_words": ["今天", "是", "星期", "几"]},
+      {"word": "Hôm nay là chủ nhật", "meaning_words": ["今天", "是", "星期日"]},
+      {"word": "Hôm nay là thứ hai", "meaning_words": ["今天", "是", "星期一"]},
+      {"word": "Hôm nay là thứ 7", "meaning_words": ["今天", "是", "星期六"]},
+      {"word": "Thứ 2 tuần sau bạn bận không", "meaning_words": ["下个", "星期一", "你", "忙", "吗"]},
+      {"word": "Thứ 5 tuần sau tôi đi xem phim", "meaning_words": ["下个", "星期四", "我", "去看电影"]},
+      {"word": "Tối thứ 7 bạn làm gì", "meaning_words": ["星期六", "晚上", "你", "干", "什么"]},
+      {"word": "Chủ nhật tuần trước bạn làm gì", "meaning_words": ["上个", "星期天", "你", "做", "什么了"]},
+      {"word": "Bạn học tiếng Trung bao lâu rồi", "meaning_words": ["你", "学", "中文", "多久了"]},
+      {"word": "Tôi học tiếng Trung 2 tháng rồi", "meaning_words": ["我", "学习", "中文", "两个月了"]},
+      {"word": "Bạn làm việc ở đây bao lâu rồi", "meaning_words": ["你", "在这里", "工作", "多久了"]},
+      {"word": "Tôi làm việc ở công ty này 2 năm rồi", "meaning_words": ["我", "在", "这个", "公司", "工作", "两年了"]},
+      {"word": "Bạn còn nhớ tôi là ai không", "meaning_words": ["你", "还记得", "我", "是谁", "吗"]},
+      {"word": "Tôi quên mất bạn tên gì rồi", "meaning_words": ["我", "忘了", "你", "叫", "什么名字"]},
+      {"word": "nhớ ăn sáng nhé", "meaning_words": ["记得", "吃", "早饭"]},
+      {"word": "Nhớ học tiếng Trung", "meaning_words": ["记得", "学", "中文"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 7.1,
     "vocabulary": [
-    {"word": "sắp .. chưa", "meaning": "快……了吗？"},
-    {"word": "sinh nhật", "meaning": "生日"},
-    {"word": "bánh ga tô", "meaning": "蛋糕"},
-    {"word": "đơn giản", "meaning": "简单"},
-    {"word": "làm bánh", "meaning": "做蛋糕"},
-    {"word": "tặng (quà)", "meaning": "送（礼物）"},
-    {"word": "giỏi", "meaning": "棒、厉害"},
-    {"word": "bao giờ?", "meaning": "什么时候？"},
-    {"word": "khi nào?", "meaning": "什么时候？"},
-    {"word": "lúc nào?", "meaning": "什么时候？"},
-    {"word": "ngày 20", "meaning": "20号"},
-    {"word": "tháng tư", "meaning": "4月"},
-    {"word": "năm．．．", "meaning": "……年"},
-    {"word": "thứ mấy", "meaning": "星期几？"},
-    {"word": "ngày mấy?", "meaning": "几号？"},
-    {"word": "tháng mấy?", "meaning": "几月？"},
-    {"word": "năm nào?", "meaning": "哪一年？"},
-    {"word": "hôm nào?", "meaning": "哪天？"},
-    {"word": "thứ hai", "meaning": "星期一"},
-    {"word": "thứ ba", "meaning": "星期二"},
-    {"word": "thứ tư", "meaning": "星期三"},
-    {"word": "chủ nhật", "meaning": "星期天、星期日"},
-    {"word": "hôm nay", "meaning": "今天"},
-    {"word": "hôm qua", "meaning": "昨天"},
-    {"word": "ngày mai", "meaning": "明天"}
+      {"word": "sắp .. chưa", "meaning": "快……了吗？"},
+      {"word": "sinh nhật", "meaning": "生日"},
+      {"word": "hôm qua", "meaning": "昨天"},
+      {"word": "ngày mai", "meaning": "明天"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 7.2,
     "vocabulary": [
-    {"word": "tuần trước", "meaning": "上周"},
-    {"word": "tuần này", "meaning": "这周"},
-    {"word": "tuần sau", "meaning": "下周"},
-    {"word": "tháng trước", "meaning": "上个月"},
-    {"word": "tháng sau", "meaning": "下个月"},
-    {"word": "tháng này", "meaning": "这个月"},
-    {"word": "năm nay", "meaning": "今年"},
-    {"word": "năm sau", "meaning": "明年"},
-    {"word": "năm trước", "meaning": "去年"},
-    {"word": "hai hôm trước", "meaning": "两天前（前天）"},
-    {"word": "hai hôm sau", "meaning": "两天后（后天）"},
-    {"word": "hai tuần trước", "meaning": "两周前（上上周）"},
-    {"word": "hai tuần sau", "meaning": "两周后"},
-    {"word": "hai tháng trước", "meaning": "两个月前"},
-    {"word": "hai tháng sau", "meaning": "两个月后"},
-    {"word": "hai năm trước", "meaning": "两年前"},
-    {"word": "hai năm sau", "meaning": "两年后"},
-    {"word": "thứ 2 tuần này", "meaning": "这周一"},
-    {"word": "thứ 2 tuần sau", "meaning": "下周一"},
-    {"word": "thứ 2 tuần trước", "meaning": "上周一"}
+      {"word": "tuần trước", "meaning": "上周"},
+      {"word": "thứ 2 tuần trước", "meaning": "上周一"}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 8.1,
     "vocabulary": [
-    {"word": "lâu", "meaning": "久"},
-    {"word": "dạo này", "meaning": "最近"},
-    {"word": "vẫn", "meaning": "还、仍然"},
-    {"word": "nhà riêng", "meaning": "自己的房子"},
-    {"word": "sống với ...", "meaning": "跟……一起生活"},
-    {"word": "sống cùng ...", "meaning": "跟……一起生活"},
-    {"word": "đã ... chưa?", "meaning": "已经……了"},
-    {"word": "chưa", "meaning": "还没"},
-    {"word": "cũng", "meaning": "也"},
-    {"word": "đều", "meaning": "都"},
-    {"word": "đi đâu", "meaning": "去哪里？"},
-    {"word": "... đâu?", "meaning": "……在哪里？"},
-    {"word": "ở đâu", "meaning": "在哪里？"},
-    {"word": "lâu rồi không ", "meaning": "好久不见"}
+      {"word": "lâu", "meaning": "久"},
+      {"word": "lâu rồi không ", "meaning": "好久不见"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 8.2,
     "vocabulary": [
-    {"word": "ông", "meaning": "爷爷、外公"},
-    {"word": "bà", "meaning": "奶奶、外婆"},
-    {"word": "bố", "meaning": "爸爸"},
-    {"word": "mẹ", "meaning": "妈妈"},
-    {"word": "vợ", "meaning": "老婆、妻子"},
-    {"word": "chồng", "meaning": "老公、丈夫"},
-    {"word": "chị gái", "meaning": "姐姐"},
-    {"word": "anh trai", "meaning": "哥哥"},
-    {"word": "anh rể", "meaning": "姐夫"},
-    {"word": "chị dâu", "meaning": "嫂子"},
-    {"word": "em gái", "meaning": "妹妹"},
-    {"word": "em rể", "meaning": "妹夫"},
-    {"word": "em trai", "meaning": "弟弟"},
-    {"word": "em dâu", "meaning": "弟媳"},
-    {"word": "con trai", "meaning": "儿子"},
-    {"word": "con gái", "meaning": "女儿"},
-    {"word": "cháu trai", "meaning": "孙子、外孙子"},
-    {"word": "cháu gái", "meaning": "孙女、外孙女"}
+      {"word": "ông", "meaning": "爷爷、外公"},
+      {"word": "cháu gái", "meaning": "孙女、外孙女"}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 9.1,
     "vocabulary": [
-    {"word": "rảnh", "meaning": "有空、空闲"},
-    {"word": "rỗi", "meaning": "有空、空闲"},
-    {"word": "xem (phim)", "meaning": "看(电影)"},
-    {"word": "đặc biệt là", "meaning": "特别是"},
-    {"word": "phim hành động", "meaning": "动作片"},
-    {"word": "hy vọng", "meaning": "希望"},
-    {"word": "chưa bao giờ", "meaning": "从来不、从未"},
-    {"word": "cơ hội", "meaning": "机会"},
-    {"word": "nghỉ việc", "meaning": "离职"},
-    {"word": "khoảng", "meaning": "大约、大概、差不多"},
-    {"word": "trước khi ...", "meaning": "V + 前"},
-    {"word": "tổ chức", "meaning": "举办、举行"},
-    {"word": "liên hoan", "meaning": "联欢、宴会"}
+      {"word": "rảnh", "meaning": "有空、空闲"},
+      {"word": "liên hoan", "meaning": "联欢、宴会"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 9.2,
     "vocabulary": [
-    {"word": "nghe nhạc", "meaning": "听音乐"},
-    {"word": "chỉ……thôi", "meaning": "只 zhǐ……而已"},
-    {"word": "nghe nói", "meaning": "听说"},
-    {"word": "bao lâu nữa?", "meaning": "还要多久？"},
-    {"word": "lần", "meaning": "次"},
-    {"word": "sắp ... rồi", "meaning": "快……了"},
-    {"word": "vì... (cho) nên...", "meaning": "因为……所以……"},
-    {"word": "1 tháng nữa", "meaning": "还要一个月"},
-    {"word": "trong bao lâu?", "meaning": "多久？（开始至结束）"},
-    {"word": "bao lâu rồi?", "meaning": "多久了？"},
-    {"word": "(đã) lâu chưa?", "meaning": "久了吗？"},
-    {"word": "...quá / quá ...", "meaning": "太（表达惊讶、感叹或超出预期）"},
-    {"word": "...lắm", "meaning": "太 (用于夸奖、描述事实。客观描述程度）"}
+      {"word": "nghe nhạc", "meaning": "听音乐"},
+      {"word": "...lắm", "meaning": "太 (用于夸奖、描述事实。客观描述程度）"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
+  },
+  {
     "lesson_id": 10.1,
     "vocabulary": [
-    {"word": "đi thẳng", "meaning": "直走"},
-    {"word": "đường", "meaning": "路"},
-    {"word": "rẽ trái", "meaning": "左拐"},
-    {"word": "rẽ phải", "meaning": "右拐"},
-    {"word": "bên trái", "meaning": "左边"},
-    {"word": "bên phải", "meaning": "右边"},
-    {"word": "tốt bụng", "meaning": "善良"},
-    {"word": "ngã tư", "meaning": "十字路口"},
-    {"word": "ngã ba", "meaning": "三岔路口"},
-    {"word": "gần đây", "meaning": "附近"},
-    {"word": "khoảng", "meaning": "大约、大概、左右"},
-    {"word": "cách", "meaning": "离"},
-    {"word": "từ ... đến ...", "meaning": "从……到……"},
-    {"word": "mất bao lâu", "meaning": "要多远"}
+      {"word": "đi thẳng", "meaning": "直走"},
+      {"word": "mất bao lâu", "meaning": "要多远"}
     ]
-    },
-    
-    {
-    "lesson_id": "地点",
+  },
+  {
+    "lesson_id": 10.2,
     "vocabulary": [
-    {"word": "chợ", "meaning": "市场"},
-    {"word": "siêu thị ", "meaning": "超市"},
-    {"word": "bưu điện", "meaning": "邮局"},
-    {"word": "ngân hàng", "meaning": "银行"},
-    {"word": "công viên", "meaning": "公园"},
-    {"word": "trường học", "meaning": "学校"},
-    {"word": "nhà hàng", "meaning": "饭馆、饭店"},
-    {"word": "nhà ăn", "meaning": "食堂"},
-    {"word": "bệnh viện", "meaning": "医院"},
-    {"word": "khách sạn", "meaning": "宾馆、酒店"},
-    {"word": "sân bay", "meaning": "机场"},
-    {"word": "rạp chiếu phim", "meaning": "电影院"},
-    {"word": "công ty", "meaning": "公司"}
-    ]
-    },
-    
-    {
-    "lesson_id": "交通工具",
-    "vocabulary": [
-    {"word": "đi bằng gì?", "meaning": "怎么去？用什么交通工具？"},
-    {"word": "máy bay", "meaning": "飞机"},
-    {"word": "ô tô", "meaning": "汽车"},
-    {"word": "xe máy", "meaning": "摩托车"},
-    {"word": "tàu hỏa", "meaning": "火车"},
-    {"word": "xe buýt", "meaning": "公交车"},
-    {"word": "taxi", "meaning": "出租车"},
-    {"word": "xe đạp", "meaning": "自行车、脚踏车"},
-    {"word": "xích lô", "meaning": "越南载客三轮车"},
-    {"word": "đi bộ", "meaning": "走路、散步"}
-    ]
-    },
-    
-    {
-    "lesson_id": 11,
-    "vocabulary": [
-    {"word": "có thể", "meaning": "可以、能"},
-    {"word": "ý kiến", "meaning": "意见"},
-    {"word": "thú vị", "meaning": "有意思、有趣"},
-    {"word": "bảo tàng", "meaning": "博物馆"},
-    {"word": "một chút", "meaning": "一点儿"},
-    {"word": "để", "meaning": "为了、旨在"},
-    {"word": "nghĩ", "meaning": "想 think"},
-    {"word": "tìm hiểu", "meaning": "了解"},
-    {"word": "về", "meaning": "关于"},
-    {"word": "thời gian", "meaning": "时间"},
-    {"word": "biết", "meaning": "知道、会"},
-    {"word": "văn hóa", "meaning": "文化"},
-    {"word": "tự học", "meaning": "自学"},
-    {"word": "vừa...vừa...", "meaning": "又……又…… / 一边……一边……"},
-    {"word": "nếu", "meaning": "如果"},
-    {"word": "được không", "meaning": "好吗？可以吗？"},
-    {"word": "không được", "meaning": "不行、不可以"},
-    {"word": "có thể...được không?", "meaning": "能……吗？"}
+      {"word": "chợ", "meaning": "市场"},
+      {"word": "công ty", "meaning": "公司"}
     ],
     "arrange_sentences": [
       {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
     ]
-    },
-    
-    {
-    "lesson_id": 12.1,
-    "vocabulary": [
-    {"word": "trên", "meaning": "上面"},
-    {"word": "trong", "meaning": "里面"},
-    {"word": "xong", "meaning": "完、完成"},
-    {"word": "học viên", "meaning": "学员"},
-    {"word": "bài bao nhiêu", "meaning": "第几课"},
-    {"word": "lớp", "meaning": "班级"},
-    {"word": "Thái Lan", "meaning": "泰国"},
-    {"word": "cố gắng", "meaning": "努力"},
-    {"word": "dưới", "meaning": "下面"},
-    {"word": "ngoài", "meaning": "外面"},
-    {"word": "giữa", "meaning": "中间"},
-    {"word": "trước", "meaning": "前面"},
-    {"word": "sau", "meaning": "后面"},
-    {"word": "bên cạnh", "meaning": "旁边"},
-    {"word": "gần", "meaning": "附近"},
-    {"word": "đừng", "meaning": "别"},
-    {"word": "không được", "meaning": "不可以、不能"},
-    {"word": "cấm", "meaning": "禁止"}
-    ],
-    "arrange_sentences": [
-      {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
-    ]
-    },
-    
-    {
-    "lesson_id": "东西",
-    "vocabulary": [
-    {"word": "đồng hồ", "meaning": "手表、钟表"},
-    {"word": "bình hoa", "meaning": "花瓶"},
-    {"word": "tường", "meaning": "墙"},
-    {"word": "đèn", "meaning": "灯"},
-    {"word": "ghế", "meaning": "椅子"},
-    {"word": "bàn", "meaning": "桌子"},
-    {"word": "sách", "meaning": "书"},
-    {"word": "sô-pha", "meaning": "沙发"},
-    {"word": "tấm thảm", "meaning": "地毯"},
-    {"word": "tủ lạnh", "meaning": "冰箱"},
-    {"word": "điều hòa", "meaning": "空调"},
-    {"word": "bút", "meaning": "笔"},
-    {"word": "máy tính", "meaning": "电脑"},
-    {"word": "điện thoại", "meaning": "手机"}
-    ]
-    },
-    
-    {
-    "lesson_id": "动作",
-    "vocabulary": [
-    {"word": "uống bia", "meaning": "喝啤酒"},
-    {"word": "thức khuya", "meaning": "熬夜"},
-    {"word": "ăn kem", "meaning": "吃冰淇淋"},
-    {"word": "đi bơi", "meaning": "去游泳"},
-    {"word": "đi biển", "meaning": "去海边玩水"},
-    {"word": "hút thuốc", "meaning": "抽烟、吸烟"},
-    {"word": "đi chơi", "meaning": "出去玩"},
-    {"word": "nghe điện thoại", "meaning": "接电话"},
-    {"word": "gọi điện thoại", "meaning": "打电话"},
-    {"word": "đi ăn", "meaning": "去吃饭"},
-    {"word": "đi ngủ", "meaning": "去睡觉"},
-    {"word": "đi dạo", "meaning": "散步"},
-    {"word": "nghe nhạc", "meaning": "听音乐"},
-    {"word": "nói chuyện", "meaning": "聊天、说话"}
-    ]
-    },
-    
-    {
-    "lesson_id": "形容词(2)",
-    "vocabulary": [   
-    {"word": "sâu", "meaning": "深"},
-    {"word": "ngon", "meaning": "好吃"},
-    {"word": "đẹp trai", "meaning": "帅"},
-    {"word": "đẹp gái", "meaning": "漂亮"},
-    {"word": "xấu", "meaning": "丑"},
-    {"word": "đẹp", "meaning": "好看、漂亮"},
-    {"word": "bẩn", "meaning": "脏"},
-    {"word": "sạch", "meaning": "干净"},
-    {"word": "nặng", "meaning": "重"},
-    {"word": "nhẹ", "meaning": "轻"}
-    ]
-    },
-    
-    {
-    "lesson_id": "单位",
-    "vocabulary": [
-    {"word": "mét vuông", "meaning": "平方米"},
-    {"word": "ki lô gam", "meaning": "公斤"},
-    {"word": "ki lô mét", "meaning": "公里"},
-    {"word": "xăng ti mét", "meaning": "厘米、公分"},
-    {"word": "mét", "meaning": "米"},
-    {"word": "héc ta", "meaning": "公顷"},
-    {"word": "mét khối", "meaning": "立方米"}
-    ]
-    },
-    
-    {
-    "lesson_id": "动物",
-    "vocabulary": [
-    {"word": "con mèo", "meaning": "猫"},
-    {"word": "con chó", "meaning": "狗"},
-    {"word": "con gà", "meaning": "鸡"},
-    {"word": "con lợn / con heo", "meaning": "猪"},
-    {"word": "con cừu", "meaning": "羊"},
-    {"word": "con cá", "meaning": "鱼"},
-    {"word": "con bò", "meaning": "牛"},
-    {"word": "thịt", "meaning": "肉"},
-    {"word": "con dê", "meaning": "山羊"},
-    {"word": "con trâu", "meaning": "水牛"}
-    ]
-    },
-    
-    {
-    "lesson_id": 13.1,
-    "vocabulary": [
-    {"word": "dùng", "meaning": "用"},
-    {"word": "món", "meaning": "菜"},
-    {"word": "rau", "meaning": "蔬菜"},
-    {"word": "nem rán", "meaning": "春卷"},
-    {"word": "cái đĩa", "meaning": "盘子"},
-    {"word": "nước chanh", "meaning": "柠檬水"},
-    {"word": "chè sen", "meaning": "莲子甜水"},
-    {"word": "nhân viên phục vụ", "meaning": "服务员"},
-    {"word": "sa lát", "meaning": "沙拉"},
-    {"word": "thịt bò", "meaning": "牛肉"},
-    {"word": "bít tết", "meaning": "牛排"},
-    {"word": "đồ uống", "meaning": "喝的、饮料"},
-    {"word": "thực đơn", "meaning": "菜单"},
-    {"word": "tráng miệng", "meaning": "甜点"},
-    {"word": "tính tiền", "meaning": "买单、结账"},
-    {"word": "thanh toán", "meaning": "买单、结账"},
-    {"word": "cho tôi", "meaning": "给我……"},
-    {"word": "thêm", "meaning": "加"},
-    {"word": "thêm đường", "meaning": "加糖"},
-    {"word": "thêm sữa", "meaning": "加牛奶"},
-    {"word": "đôi đũa", "meaning": "一双筷子"},
-    {"word": "lẩu", "meaning": "火锅"},
-    {"word": "ai cũng...", "meaning": "谁都……"},
-    {"word": "cái gì cũng...", "meaning": "什么都……"},
-    {"word": "đâu cũng...", "meaning": "哪里都……"},
-    {"word": "con nào cũng...", "meaning": "个个都……（用于动物）"},
-    {"word": "đồng nghiệp", "meaning": "同事"},
-    {"word": "cái thìa", "meaning": "勺子"},
-    {"word": "đi mấy người?", "meaning": "您几位？"},
-    {"word": "gọi món", "meaning": "点菜"},
-    {"word": "món gì", "meaning": "什么菜？"}
-    ],
-    "arrange_sentences": [
-      {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
-    ]
-    },
-  {
-    "lesson_id": 13.2,
-    "vocabulary": [
-      {"word": "ngon", "meaning": "好吃"},
-      {"word": "cay", "meaning": "辣"},
-      {"word": "chua", "meaning": "酸"},
-      {"word": "ngọt", "meaning": "甜"},
-      {"word": "đắng", "meaning": "苦"},
-      {"word": "mặn", "meaning": "咸"},
-      {"word": "nhạt", "meaning": "淡"},
-      {"word": "đậm", "meaning": "浓"},
-      {"word": "ớt", "meaning": "辣椒"},
-      {"word": "cà phê", "meaning": "咖啡"},
-      {"word": "kẹo", "meaning": "糖"},
-      {"word": "dưa hấu", "meaning": "西瓜"},
-      {"word": "chanh", "meaning": "柠檬"},
-      {"word": "hành lá", "meaning": "葱花"},
-      {"word": "mắm tôm", "meaning": "虾酱"},
-      {"word": "nước mắm", "meaning": "鱼露"},
-      {"word": "thơm", "meaning": "香"},
-      {"word": "thối", "meaning": "臭"}
-    ]
-  },
-  {
-    "lesson_id": 14.1,
-    "vocabulary": [
-      {"word": "thời tiết", "meaning": "天气"},
-      {"word": "như thế nào", "meaning": "怎么样"},
-      {"word": "tuy nhiên", "meaning": "但是，不过"},
-      {"word": "sợ", "meaning": "怕"},
-      {"word": "mùa gì", "meaning": "什么季节"},
-      {"word": "mùa xuân", "meaning": "春天"},
-      {"word": "mùa hạ", "meaning": "夏天"},
-      {"word": "mùa hè", "meaning": "夏天"},
-      {"word": "mùa thu", "meaning": "秋天"},
-      {"word": "mùa đông", "meaning": "冬天"},
-      {"word": "nắng", "meaning": "晴朗"},
-      {"word": "mát", "meaning": "凉快"},
-      {"word": "khô", "meaning": "干燥"},
-      {"word": "nhiệt độ", "meaning": "温度"},
-      {"word": "mưa", "meaning": "下雨"},
-      {"word": "...độ", "meaning": "……度"},
-      {"word": "bão", "meaning": "台风"},
-      {"word": "mùa mưa", "meaning": "雨季"},
-      {"word": "mùa khô", "meaning": "旱季"},
-      {"word": "nóng", "meaning": "热"}
-    ],
-    "arrange_sentences": [
-      {"word": "今天天气怎么样", "meaning_words": ["hôm nay", "thời tiết", "như thế nào"]},
-      {"word": "今天天气怎么样", "meaning_words": ["hôm nay", "trời", "thế nào"]},
-      {"word": "今天会下雨吗", "meaning_words": ["hôm nay", "có", "mưa", "không"]},
-      {"word": "今天天气晴朗吗", "meaning_words": ["hôm nay", "có", "nắng", "không"]},
-      {"word": "今天有没有台风", "meaning_words": ["hôm nay", "có", "bão", "không"]},
-      {"word": "现在是什么季节", "meaning_words": ["bây giờ", "là", "mùa", "gì"]},
-      {"word": "现在是春天", "meaning_words": ["bây giờ", "là", "mùa", "xuân"]},
-      {"word": "现在是夏天", "meaning_words": ["bây giờ", "là", "mùa", "hạ"]},
-      {"word": "现在是秋天", "meaning_words": ["bây giờ", "là", "mùa", "thu"]},
-      {"word": "现在是冬天", "meaning_words": ["bây giờ", "là", "mùa", "đông"]},
-      {"word": "现在是夏天", "meaning_words": ["bây giờ", "là", "mùa", "hè"]},
-      {"word": "现在是雨季", "meaning_words": ["bây giờ", "là", "mùa", "mưa"]},
-      {"word": "现在是旱季", "meaning_words": ["bây giờ", "là", "mùa", "khô"]},
-      {"word": "现在是夏天", "meaning_words": ["bây giờ", "là", "mùa", "hè"]},
-      {"word": "今天很凉快", "meaning_words": ["hôm nay", "rất", "mát"]},
-      {"word": "今天很热", "meaning_words": ["hôm nay", "rất", "nóng"]},
-      {"word": "你最怕什么", "meaning_words": ["bạn", "sợ", "cái gì", "nhất"]},
-      {"word": "今天天气晴朗", "meaning_words": ["hôm nay", "trời", "nắng"]}
-    ]
-  },
-  {
-    "lesson_id": 14.2,
-    "vocabulary": [
-      {"word": "cả A và B đều…", "meaning": "A和B都…"},
-      {"word": "cả A lẫn B đều…", "meaning": "A和B都…"},
-      {"word": "…bằng", "meaning": "一样…"},
-      {"word": "…như", "meaning": "一样…"},
-      {"word": "…hơn", "meaning": "比 、更…"},
-      {"word": "…nhất", "meaning": "最…"},
-      {"word": "giống", "meaning": "像"},
-      {"word": "giống nhau", "meaning": "一样"},
-      {"word": "khác", "meaning": "不一样"},
-      {"word": "khác nhau", "meaning": "不一样"}
-    ],
-    "arrange_sentences": [
-      {"word": "我和他都喜欢吃河粉", "meaning_words": ["cả", "tôi", "lẫn", "anh ấy", "đều", "thích", "ăn phở"]},
-      {"word": "河粉和米粉他都喜欢吃", "meaning_words": ["cả", "phở", "và", "bún", "ông ấy", "đều", "thích ăn"]},
-      {"word": "橙汁和柠檬水她都喜欢喝", "meaning_words": ["chị ấy", "thích", "uống", "cả", "nước cam", "và", "nước chanh"]},
-      {"word": "我跟他一样高", "meaning_words": ["tôi", "cao", "bằng", "anh ấy"]},
-      {"word": "我跟你一样忙", "meaning_words": ["tôi", "bận", "như", "bạn"]},
-      {"word": "我跟你一样累", "meaning_words": ["tôi", "mệt", "như", "bạn"]},
-      {"word": "冬天比夏天冷", "meaning_words": ["mùa đông", "lạnh", "hơn", "mùa hè"]},
-      {"word": "我比你忙", "meaning_words": ["tôi", "bận", "hơn", "bạn"]},
-      {"word": "我比你高", "meaning_words": ["tôi", "cao", "hơn", "bạn"]},
-      {"word": "我最忙", "meaning_words": ["tôi", "bận", "nhất"]},
-      {"word": "我最高", "meaning_words": ["tôi", "cao", "nhất"]},
-      {"word": "我最胖", "meaning_words": ["tôi", "béo", "nhất"]},
-      {"word": "我跟你一样", "meaning_words": ["tôi", "giống", "bạn"]},
-      {"word": "我跟你一样", "meaning_words": ["tôi", "với", "bạn", "giống nhau"]},
-      {"word": "我和你不一样", "meaning_words": ["tôi", "với", "bạn", "không", "giống nhau"]},
-      {"word": "我和你不一样", "meaning_words": ["tôi", "khác", "bạn"]},
-      {"word": "我和你不一样", "meaning_words": ["tôi", "với", "bạn", "khác nhau"]},
-      {"word": "这两个不一样", "meaning_words": ["hai", "cái", "này", "không", "giống nhau"]},
-      {"word": "这两个不一样", "meaning_words": ["hai", "cái", "này", "khác nhau"]},
-      {"word": "这两个一样", "meaning_words": ["hai", "cái", "này", "như nhau"]},
-      {"word": "这两个一样", "meaning_words": ["hai", "cái", "này", "giống nhau"]}
-    ]
-  },
-  {
-    "lesson_id": 15,
-    "vocabulary": [
-      {"word": "đặt", "meaning": "订"},
-      {"word": "tiện nghi", "meaning": "设施"},
-      {"word": "đầy đủ", "meaning": "齐全"},
-      {"word": "phòng đôi", "meaning": "双人间"},
-      {"word": "phòng đơn", "meaning": "单人间"},
-      {"word": "thành phố", "meaning": "城市"},
-      {"word": "giữ", "meaning": "留"},
-      {"word": "càng ngày càng", "meaning": "越来越"},
-      {"word": "thế nào cũng", "meaning": "肯定、一定"},
-      {"word": "giá", "meaning": "价格"},
-      {"word": "bao gồm", "meaning": "包括"},
-      {"word": "bữa sáng", "meaning": "早餐"},
-      {"word": "ngắm", "meaning": "观赏"},
-      {"word": "hồ", "meaning": "湖泊"},
-      {"word": "nhớ", "meaning": "想念、记得"},
-      {"word": "nhìn", "meaning": "看"},
-      {"word": "mặc dù", "meaning": "虽然"},
-      {"word": "dù", "meaning": "虽然"},
-      {"word": "tuy", "meaning": "虽然"},
-      {"word": "nhưng", "meaning": "但"}
-    ],
-    "arrange_sentences": [
-      {"word": "给我个单人间", "meaning_words": ["cho", "tôi", "1", "phòng", "đơn"]},
-      {"word": "还剑湖越来越大", "meaning_words": ["hồ", "Hoàn Kiếm", "càng ngày càng", "rộng"]},
-      {"word": "含早餐吗", "meaning_words": ["có", "bao", "bữa sáng", "không"]},
-      {"word": "单人间还是双人间", "meaning_words": ["phòng đơn", "hay", "phòng đôi"]},
-      {"word": "价格怎么样", "meaning_words": ["giá", "thế nào"]},
-      {"word": "给我留一个单人间", "meaning_words": ["giữ", "cho", "tôi", "1", "phòng đơn"]},
-      {"word": "能看到城市吗", "meaning_words": ["có", "ngắm", "được", "thành phố", "không"]},
-      {"word": "能看到还剑湖", "meaning_words": ["ngắm", "được", "hồ", "Hoàn Kiếm"]},
-      {"word": "要先付200的订金", "meaning_words": ["phải", "cọc trước", "200"]},
-      {"word": "记得先付款", "meaning_words": ["nhớ", "trả tiền", "trước"]},
-      {"word": "记得预定房间", "meaning_words": ["nhớ", "đặt phòng", "trước"]},
-      {"word": "住几天", "meaning_words": ["ở", "mấy", "ngày"]},
-      {"word": "住一晚", "meaning_words": ["ở", "một", "đêm"]},
-      {"word": "几个人住", "meaning_words": ["ở", "mấy", "người", "ạ"]},
-      {"word": "没空房了", "meaning_words": ["hết", "phòng", "rồi"]},
-      {"word": "能看到还剑湖吗", "meaning_words": ["có", "nhìn ra", "hồ", "Hoàn Kiếm", "được không"]},
-      {"word": "她的越南语越来越好", "meaning_words": ["tiếng Việt", "của", "cô ấy", "càng ngày càng", "tốt"]},
-      {"word": "虽然我很累，但还要上班", "meaning_words": ["tuy", "tôi", "rất mệt", "nhưng", "vẫn phải", "đi làm"]},
-      {"word": "他一定会来的", "meaning_words": ["anh ấy", "thế nào cũng", "đến"]},
-      {"word": "你的电话好吗是多少", "meaning_words": ["số điện thoại", "của", "anh", "là", "bao nhiêu"]},
-      {"word": "请出示一下护照", "meaning_words": ["cho tôi", "xem", "hộ chiếu"]},
-      {"word": "这是你的房卡", "meaning_words": ["thẻ phòng", "của", "anh", "đây ạ"]},
-      {"word": "wifi密码是什么", "meaning_words": ["mật khẩu", "wifi", "là", "gì"]},
-      {"word": "有空调吗", "meaning_words": ["có", "điều hòa", "không"]},
-      {"word": "306号房间", "meaning_words": ["phòng", "306"]}
-    ]
-    },
-  {
-    "lesson_id": 16.1,
-    "vocabulary": [
-      {"word": "trông có vẻ", "meaning": "看起来、看上去"},
-      {"word": "thấy", "meaning": "觉得"},
-        {"word": "nghỉ ngơi", "meaning": "休息"},
-        {"word": "hình như", "meaning": "好像"},
-        {"word": "thuốc", "meaning": "药"},
-        {"word": "kiêng", "meaning": "忌口"},
-        {"word": "khó chịu", "meaning": "难受"},
-        {"word": "bị", "meaning": "被（贬义词）"},
-        {"word": "được", "meaning": "被（褒义词）"},
-        {"word": "đói", "meaning": "饿"},
-        {"word": "đau dạ dày", "meaning": "胃疼"},
-        {"word": "khám lại", "meaning": "复查"},
-        {"word": "giữ gìn sức khỏe", "meaning": "保重、注意身体"},
-        {"word": "cẩn thận", "meaning": "小心"},
-        {"word": "đơn", "meaning": "单"},
-        {"word": "đơn thuốc", "meaning": "药单"},
-        {"word": "thức khuya", "meaning": "熬夜"},
-        {"word": "theo", "meaning": "根据、按照"},
-        {"word": "về sớm", "meaning": "早归"},
-        {"word": "về muộn", "meaning": "晚归"},
-        {"word": "viên", "meaning": "片、颗"},
-        {"word": "đồ chua", "meaning": "酸的(东西)"}
-    ],
-    "arrange_sentences": [
-      {"word": "她看起来有点累", "meaning_words": ["cô ấy", "trông có vẻ", "hơi", "mệt"]},
-      {"word": "你觉得身体怎么样", "meaning_words": ["bạn", "thấy", "trong người", "thế nào"]},
-        {"word": "你要多休息", "meaning_words": ["bạn", "phải", "nghỉ ngơi", "nhiều"]},
-        {"word": "她好像生病了", "meaning_words": ["hình như", "cô ấy", "bị bệnh", "rồi"]},
-        {"word": "要吃药吗", "meaning_words": ["có", "cần", "uống thuốc", "không"]},
-        {"word": "要不要忌口", "meaning_words": ["có cần", "kiêng", "gì", "không"]},
-        {"word": "早点回来", "meaning_words": ["về sớm", "nhé"]},
-        {"word": "忌酸忌辣", "meaning_words": ["kiêng", "đồ", "chua, cay"]},
-        {"word": "我很饿", "meaning_words": ["tôi", "rất", "đói"]},
-        {"word": "我胃疼", "meaning_words": ["tôi", "đau", "dạ dày"]},
-        {"word": "下周来复查", "meaning_words": ["tuần sau", "đến", "tái khám"]},
-        {"word": "要注意身体", "meaning_words": ["phải", "giữ gìn sức khỏe"]},
-        {"word": "小心点儿", "meaning_words": ["cẩn thận", "một chút"]},
-        {"word": "按照药单买药", "meaning_words": ["mua", "thuốc", "theo", "đơn này"]},
-        {"word": "不能熬夜", "meaning_words": ["không được", "thức khuya"]},
-        {"word": "我被老板夸赞", "meaning_words": ["tôi", "được", "sếp", "khen"]},
-        {"word": "每次三片", "meaning_words": ["mỗi", "lần", "3", "viên"]},
-        {"word": "我被老板骂", "meaning_words": ["tôi", "bị", "sếp", "chửi"]}
-    ]
-    },
-    {
-    "lesson_id": 16.2,
-    "vocabulary": [
-      {"word": "lông mày", "meaning": "眉毛"},
-        {"word": "mắt", "meaning": "眼睛"},
-        {"word": "mũi", "meaning": "鼻子"},
-        {"word": "miệng", "meaning": "嘴、口"},
-        {"word": "cằm", "meaning": "下巴"},
-        {"word": "ngực", "meaning": "胸部"},
-        {"word": "cánh tay", "meaning": "胳膊"},
-        {"word": "bàn tay", "meaning": "手(手掌+手背)"},
-        {"word": "chân", "meaning": "腿"},
-        {"word": "ngón chân", "meaning": "脚趾"},
-        {"word": "trán", "meaning": "额头"},
-        {"word": "tai", "meaning": "耳朵"},
-        {"word": "má", "meaning": "腮帮"},
-        {"word": "răng", "meaning": "牙齿"},
-        {"word": "môi", "meaning": "嘴唇"},
-        {"word": "lưỡi", "meaning": "舌头"},
-        {"word": "bụng", "meaning": "腹部"},
-        {"word": "đầu gối", "meaning": "膝盖"},
-        {"word": "bàn chân", "meaning": "脚"}
-    ]
-    },
-    {
-    "lesson_id": 16.3,
-    "vocabulary": [
-      {"word": "đau đầu", "meaning": "头疼"},
-        {"word": "sốt", "meaning": "发烧"},
-        {"word": "sổ mũi", "meaning": "流鼻涕"},
-        {"word": "đau răng", "meaning": "牙疼"},
-        {"word": "gãy chân", "meaning": "断腿"},
-        {"word": "đau mắt", "meaning": "眼睛疼"},
-        {"word": "cảm", "meaning": "感冒"},
-        {"word": "đau bụng", "meaning": "肚子疼"},
-        {"word": "đau lưng", "meaning": "背痛"}
-    ]
-    }
+  }
 ]
-
