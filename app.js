@@ -318,13 +318,30 @@ function loadArrangeQuestion() {
 window.speechSynthesis.onvoiceschanged = () => {
     console.log("Giọng nói đã sẵn sàng");
 };
+
 function backToMenu() {
-    document.getElementById('arrange-container').style.display = 'none';
-    document.getElementById('game-container').style.display = 'none';
-    document.getElementById('mode-menu').style.display = 'none';
+    // 1. Dừng ngay âm thanh đang đọc (nếu có)
     window.speechSynthesis.cancel();
-    currentMode = '';
-    const menu = document.getElementById('menu');
-    menu.style.display = 'grid'; 
+
+    const gameContainer = document.getElementById('game-container');
+    const arrangeContainer = document.getElementById('arrange-container');
+    const modeMenu = document.getElementById('mode-menu');
+    const mainMenu = document.getElementById('menu');
+
+    // Kiểm tra xem có đang ở trong màn hình làm bài/game hay không
+    const isPlayingGame = (gameContainer && gameContainer.style.display !== 'none') || 
+                          (arrangeContainer && arrangeContainer.style.display !== 'none');
+
+    if (isPlayingGame) {
+        // Đang ở trong game -> Thoát ra menu Chọn Chế Độ
+        if (gameContainer) gameContainer.style.display = 'none';
+        if (arrangeContainer) arrangeContainer.style.display = 'none';
+        if (modeMenu) modeMenu.style.display = 'block';
+    } else {
+        // Đang ở menu Chọn Chế Độ -> Thoát ra màn hình Chọn Bài
+        if (modeMenu) modeMenu.style.display = 'none';
+        if (mainMenu) mainMenu.style.display = 'grid'; // Dùng 'grid' thay vì 'block' để không vỡ giao diện nút
+        currentMode = '';
+    }
 }
 
