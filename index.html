@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css?v=1.2">
+    <title>Luyện Từ Vựng</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Luyện Từ Vựng</h1>
+        <div id="menu">
+            <button onclick="startLesson(1.1)">Bài 1.1 打招呼</button>
+            <button onclick="startLesson(1.2)">Bài 1.2 人称代词</button>
+            <button onclick="startLesson(2.1)">Bài 2.1 语言与国籍</button>
+            <button onclick="startLesson(2.2)">Bài 2.2职业</button>
+            <button onclick="startLesson(3)">Bài 3问年龄</button>
+            <button onclick="startLesson(4.1)">Bài 4.1 房间</button>
+            <button onclick="startLesson(4.2)">Bài 4.2 量词</button>
+            <button onclick="startLesson(4.3)">Bài 4.3 所属关系</button>
+            <button onclick="startLesson(4.4)">Bài 4.4 形容词(1)</button>
+            <button onclick="startLesson(5.1)">Bài 5.1 买东西</button>
+            <button onclick="startLesson(5.2)">Bài 5.2 穿戴</button>
+            <button onclick="startLesson(5.3)">Bài 5.3 颜色</button>
+            <button onclick="startLesson(6.1)">Bài 6.1 时间(1)</button>
+            <button onclick="startLesson(6.2)">Bài 6.2 时间(2)</button>
+            <button onclick="startLesson(6.3)">Bài 6.3 日常活动</button>
+            <button onclick="startLesson(7.1)">Bài 7.1 年月日(1)</button>
+            <button onclick="startLesson(7.2)">Bài 7.2 年月日(2)</button>
+            <button onclick="startLesson(8.1)">Bài 8.1 好久不见</button>
+            <button onclick="startLesson(8.2)">Bài 8.2 家庭关系</button>
+            <button onclick="startLesson(9.1)">Bài 9.1 业余活动(1)</button>
+            <button onclick="startLesson(9.2)">Bài 9.2 业余活动(2)</button>
+            <button onclick="startLesson(10.1)">Bài 10.1 方向</button>
+            <button onclick="startLesson('交通工具')">Bài 10.2 交通工具</button>
+            <button onclick="startLesson('地点')">Bài 10.3 地点</button>
+            <button onclick="startLesson(11)">Bài 11 时长</button>
+            <button onclick="startLesson(12)">Bài 12.1 位置</button>
+            <button onclick="startLesson('单位')">Bài 12.2 单位</button>
+            <button onclick="startLesson(13.1)">Bài 13.1 点菜</button>
+            <button onclick="startLesson(13.2)">Bài 13.2 味道</button>
+            <button onclick="startLesson(14.1)">Bài 14.1 天气</button>
+            <button onclick="startLesson(14.2)">Bài 14.2 比较句</button>
+            <button onclick="startLesson(15)">Bài 15 酒店预定</button>
+            <button onclick="startLesson(16.1)">Bài 16.1 看病</button>
+            <button onclick="startLesson(16.2)">Bài 16.2 人体部位</button>
+            <button onclick="startLesson(16.3)">Bài 16.3 疾病</button>
+            <button onclick="startLesson('形容词(2)')">形容词(2)</button>
+            <button onclick="startLesson('动作')">动作</button>
+            <button onclick="startLesson('动物')">动物</button>
+        </div>
+
+<div id="mode-menu" style="display:none; text-align: center; margin: 20px auto; max-width: 400px;">
+            <h3>Chọn chế độ học:</h3>
+            <button onclick="setMode('listen')">🎧 Luyện nghe</button>
+            <button onclick="setMode('dictation')">✍️ Chép chính tả</button>
+            <button onclick="setMode('look')" style="margin-top: 10px;">👁️ Học từ vựng</button>
+            <button onclick="startArrangeGame()" style="margin-top: 10px; background-color: #ff9800;">🧩 Sắp xếp câu</button>
+        </div>
+
+<div id="game-container" style="display:none;">
+    <div id="q-box" style="text-align: center; margin-bottom: 20px;">
+        <h2 id="question" class="hidden-text"></h2>
+        <button id="speaker-btn" onclick="speakQuestion()" style="cursor: pointer; font-size: 24px; border: none; background: none;">🔊</button>
+    </div>
+    
+    <div id="options"></div> 
+    
+    <div id="dictation-box" style="display:none; text-align:center; margin-top:20px;">
+        <input type="text" id="answer-input" placeholder="Nhập chữ tại đây..." style="padding:10px; width:80%; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+        <button onclick="checkDictation()" style="margin-top:15px; padding: 10px 20px;">Kiểm tra</button>
+    </div>
+    </div>
+    <div id="arrange-container" style="display: none;">
+            <button onclick="backToMenu()">⬅️ Quay lại Menu</button>
+            <h2 id="arrange-question"></h2>
+            <div id="word-pool"></div>
+            <div id="drop-zone"></div>
+            <button onclick="checkArrange()" style="margin-top: 15px;">Kiểm tra</button>
+        </div>
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <h2>Hoàn thành!</h2>
+            <p id="resultText"></p>
+            <button onclick="location.reload()">Quay lại chọn bài</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
