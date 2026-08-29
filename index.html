@@ -9,13 +9,14 @@
 <body>
     <div id="app">
         <h1>Tiếng Trung đi làm</h1>
+        
         <div id="menu">
             <button onclick="startLesson(1.1)">Bài 1.1</button>
             <button onclick="startLesson(1.2)">Bài 1.2</button>
             <button onclick="startLesson(2.1)">Bài 2.1</button>
             <button onclick="startLesson(2.2)">Bài 2.2</button>
             <button onclick="startLesson(3.1)">Bài 3.1</button>
-             <button onclick="startLesson(3.2)">Bài 3.1</button>
+            <button onclick="startLesson(3.2)">Bài 3.2</button>
             <button onclick="startLesson(4.1)">Bài 4.1</button>
             <button onclick="startLesson(4.2)">Bài 4.2</button>
             <button onclick="startLesson(5.1)">Bài 5.1</button>
@@ -33,7 +34,7 @@
             <button onclick="startLesson(10.2)">Bài 10.2</button>
         </div>
 
-<div id="mode-menu" style="display:none; text-align: center; margin: 20px auto; max-width: 400px;">
+        <div id="mode-menu" style="display:none; text-align: center; margin: 20px auto; max-width: 400px;">
             <h3>Chọn chế độ học:</h3>
             <button onclick="setMode('listen')">🎧 Luyện nghe</button>
             <button onclick="setMode('dictation')">✍️ Chép chính tả</button>
@@ -41,32 +42,37 @@
             <button onclick="startArrangeGame()" style="margin-top: 10px; background-color: #ff9800;">🧩 Sắp xếp câu</button>
         </div>
 
-<div id="game-container" style="display:none;">
-    <div id="q-box" style="text-align: center; margin-bottom: 20px;">
-        <h2 id="question" class="hidden-text"></h2>
-        <button id="speaker-btn" onclick="speakQuestion()" style="cursor: pointer; font-size: 24px; border: none; background: none;">🔊</button>
-    </div>
-    
-    <div id="options"></div> 
-    
-    <div id="dictation-box" style="display:none; text-align:center; margin-top:20px;">
-        <input type="text" id="answer-input" placeholder="Nhập chữ tại đây..." style="padding:10px; width:80%; border: 1px solid #ccc; border-radius: 5px;">
-        <br>
-        <button onclick="checkDictation()" style="margin-top:15px; padding: 10px 20px;">Kiểm tra</button>
-    </div>
-    </div>
-    <div id="arrange-container" style="display: none;">
-            <button onclick="backToMenu()">⬅️ Quay lại Menu</button>
+        <div id="game-container" style="display:none;">
+            <button onclick="backToMenu()" style="margin-bottom: 15px;">⬅️ Quay lại chọn bài</button>
+            
+            <div id="q-box" style="text-align: center; margin-bottom: 20px;">
+                <h2 id="question" class="hidden-text"></h2>
+                <button id="speaker-btn" onclick="speakQuestion()" style="cursor: pointer; font-size: 24px; border: none; background: none;">🔊</button>
+            </div>
+            
+            <div id="options"></div> 
+            
+            <div id="dictation-box" style="display:none; text-align:center; margin-top:20px;">
+                <input type="text" id="answer-input" placeholder="Nhập chữ tại đây..." style="padding:10px; width:80%; border: 1px solid #ccc; border-radius: 5px;">
+                <br>
+                <button onclick="checkDictation()" style="margin-top:15px; padding: 10px 20px;">Kiểm tra</button>
+            </div>
+        </div>
+
+        <div id="arrange-container" style="display: none;">
+            <button onclick="backToMenu()">⬅️ Quay lại chọn bài</button>
             <h2 id="arrange-question"></h2>
             <div id="word-pool"></div>
             <div id="drop-zone"></div>
             <button onclick="checkArrange()" style="margin-top: 15px;">Kiểm tra</button>
         </div>
-    <div id="resultModal" class="modal">
-        <div class="modal-content">
-            <h2>Hoàn thành!</h2>
-            <p id="resultText"></p>
-            <button onclick="location.reload()">Quay lại chọn bài</button>
+
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <h2>Hoàn thành!</h2>
+                <p id="resultText"></p>
+                <button onclick="location.reload()">Quay lại chọn bài</button>
+            </div>
         </div>
     </div>
 
