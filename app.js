@@ -45,9 +45,10 @@ function setMode(mode) {
     document.getElementById('dictation-box').style.display = (mode === 'dictation') ? 'block' : 'none';
     
     // Mồi âm thanh
-    const mồi = new SpeechSynthesisUtterance("ok");
-    mồi.volume = 0;
-    window.speechSynthesis.speak(mồi);
+    const mồi = new SpeechSynthesisUtterance("你好");
+mồi.lang = 'zh-CN';
+mồi.volume = 0;
+window.speechSynthesis.speak(mồi);
     
     loadQuestion();
 }
@@ -241,10 +242,10 @@ function speakQuestion() {
     window.speechSynthesis.cancel();
     const text = wordQueue[0].word;
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'vi-VN';
-    utterance.rate = 0.6;
+    utterance.lang = 'zh-CN';
+    utterance.rate = 0.7;
     const voices = window.speechSynthesis.getVoices();
-    const viVoice = voices.find(v => v.lang === 'vi-VN' || v.name.includes('Vietnamese'));
+    const viVoice = voices.find(v => v.lang === 'zh' || v.name.includes('ZH'));
     if (viVoice) utterance.voice = viVoice;
     window.speechSynthesis.speak(utterance);
 } 
