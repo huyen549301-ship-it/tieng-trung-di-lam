@@ -195,20 +195,60 @@
   {
     "lesson_id": 7.1,
     "vocabulary": [
-      {"word": "sắp .. chưa", "meaning": "快……了吗？"},
-      {"word": "sinh nhật", "meaning": "生日"},
-      {"word": "hôm qua", "meaning": "昨天"},
-      {"word": "ngày mai", "meaning": "明天"}
+      {"word": "mua", "meaning": "买"},
+      {"word": "bán", "meaning": "卖"},
+      {"word": "văn phòng phẩm", "meaning": "文具"},
+      {"word": "cửa hàng văn phòng phẩm", "meaning": "文具店"},
+      {"word": "tiền", "meaning": "钱"},
+      {"word": "tệ (đơn vị tiền)", "meaning": "块"},
+      {"word": "tệ (đơn vị tiền)", "meaning": "元"},
+      {"word": "bao nhiêu tiền", "meaning": "多少钱"},
+      {"word": "hào (đơn vị tiền)", "meaning": "毛"},
+      {"word": "hào (đơn vị tiền)", "meaning": "角"},
+      {"word": "xu (đơn vị tiền)", "meaning": "分"},
+      {"word": "tổng cộng", "meaning": "一共"},
+      {"word": "phương thức thanh ", "meaning": "付款方式"},
+      {"word": "tiền mặt", "meaning": "现金"},
+      {"word": "chuyển khoản", "meaning": "转账"},
+      {"word": "quét mã", "meaning": "扫码"},
+      {"word": "quẹt thẻ", "meaning": "刷卡"},
+      {"word": "như nào?", "meaning": "怎么"},
+      {"word": "rẻ", "meaning": "便宜"},
+      {"word": "đắt", "meaning": "贵"},
+      {"word": "dùng, sử dụng", "meaning": "用"}
     ],
     "arrange_sentences": [
-      {"word": "我叫阿兰", "meaning_words": ["Tôi", "tên là", "Lan"]}
+      {"word": "Bạn muốn mua cái gì?", "meaning_words": ["你", "要", "买", "什么"]},
+      {"word": "Tôi muốn mua văn phòng phẩm", "meaning_words": ["我", "要", "买", "文具"]},
+      {"word": "Tôi bán văn phòng phẩm", "meaning_words": ["我", "卖", "文具"]},
+      {"word": "Tôi bán trái cây", "meaning_words": ["我", "卖", "水果"]},
+      {"word": "Bạn bán cái gì?", "meaning_words": ["你", "卖", "什么"]},
+      {"word": "Cái này bao nhiêu tiền?", "meaning_words": ["这个", "多少", "钱"]},
+      {"word": "Cái kia bao nhiêu tiền?", "meaning_words": ["那个", "多少", "钱"]},
+      {"word": "Cái này 2 tệ 5 hào", "meaning_words": ["这个", "2", "块", "5", "毛"]},
+      {"word": "Tổng cộng bao nhiêu tiền?", "meaning_words": ["一共", "多少", "钱"]},
+      {"word": "Tổng cộng 120 tệ", "meaning_words": ["一共", "120", "块"]},
+      {"word": "Tôi mua cơm và văn phòng ", "meaning_words": ["我", "买", "饭", "和", "文具"]},
+      {"word": "Bạn dùng phương thức thanh toán gì?", "meaning_words": ["你", "用", "什么", "付款", "方式"]},
+      {"word": "Ông chủ, cái này bán như nào?", "meaning_words": ["老板", "这个", "怎么", "卖"]},
+      {"word": "Tôi dùng tiền mặt, anh ấy chuyển khoản", "meaning_words": ["我", "用", "现金", "他", "转账"]},
+      {"word": "Đắt quá, rẻ (bớt) một chút đi", "meaning_words": ["太", "贵", "了", "便宜", "一点儿", "吧"]}
     ]
   },
   {
     "lesson_id": 7.2,
     "vocabulary": [
-      {"word": "tuần trước", "meaning": "上周"},
-      {"word": "thứ 2 tuần trước", "meaning": "上周一"}
+      {"word": "钢笔", "meaning": "bút máy"},
+      {"word": "圆珠笔", "meaning": "bút bi"},
+      {"word": "铅笔", "meaning": "bút chì"},
+      {"word": "计算机", "meaning": "máy tính (cầm tay)"},
+      {"word": "订书机", "meaning": "ghim bấm"},
+      {"word": "文件夹", "meaning": "(bìa) kẹp tài liệu"},
+      {"word": "改证笔", "meaning": "bút xóa"},
+      {"word": "便利贴", "meaning": "giấy nhớ"},
+      {"word": "长尾夹", "meaning": "kẹp bướm"},
+      {"word": "回形针", "meaning": "kẹp giấy"},
+      {"word": "A4纸", "meaning": "giấy A4"}
     ]
   },
   {
