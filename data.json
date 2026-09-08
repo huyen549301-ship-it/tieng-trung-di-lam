@@ -251,6 +251,39 @@
       {"word": "A4纸", "meaning": "giấy A4"}
     ]
   },
+    {
+    "lesson_id": 7.3,
+    "vocabulary": [
+      {"word": "打印", "meaning": "in"},
+      {"word": "打印机", "meaning": "máy in"},
+      {"word": "好像", "meaning": "hình như"},
+      {"word": "坏", "meaning": "hỏng, hư"},
+      {"word": "事", "meaning": "việc, chuyện"},
+      {"word": "带", "meaning": "mang theo, dắt theo"},
+      {"word": "给", "meaning": "cho"},
+      {"word": "打电话", "meaning": "gọi điện thoại"},
+      {"word": "找", "meaning": "tìm"},
+      {"word": "听说", "meaning": "nghe nói"},
+      {"word": "供应商", "meaning": "nhà cung ứng"},
+      {"word": "检查", "meaning": "kiểm tra"},
+      {"word": "快", "meaning": "nhanh, mau chóng"}
+    ],
+    "arrange_sentences": [
+      {"word": "Hình như máy in của tôi hỏng rồi", "meaning_words": ["好像", "我", "的", "打印机", "坏", "了"]},
+      {"word": "Bạn gọi điện cho giám đốc Vương đi", "meaning_words": ["你", "给", "王经理", "打电话", "吧"]},
+      {"word": "Bạn tìm tôi có việc gì không", "meaning_words": ["你", "找", "我", "有", "什么", "事", "吗"]},
+      {"word": "Nghe nói bạn học tiếng Trung 2 tháng rồi", "meaning_words": ["听说", "你", "学习", "中文", "2个月", "了"]},
+      {"word": "Bạn mau đi ngủ đi", "meaning_words": ["你", "快", "去", "睡觉", "吧"]},
+      {"word": "Bạn gọi điện cho ai vậy", "meaning_words": ["你", "给", "谁", "打电话", "啊"]},
+      {"word": "Bạn muốn tìm ai", "meaning_words": ["你", "要", "找", "谁"]},
+      {"word": "Bạn mua cho ai vậy", "meaning_words": ["你", "给", "谁", "买", "啊"]},
+      {"word": "Bạn có mang theo tiền không", "meaning_words": ["你", "带", "钱", "吗"]},
+      {"word": "Tôi không mang theo tiền mặt", "meaning_words": ["我", "没", "带", "现金"]},
+      {"word": "Đồng nghiệp mua cho tôi 2 ly trà sữa", "meaning_words": ["同事", "给", "我", "买", "一杯", "奶茶"]},
+      {"word": "Tôi có chuyện muốn nói với bạn", "meaning_words": ["我", "有", "事", "想", "跟你", "说"]},
+      {"word": "Ông chủ cho tôi 1 triệu", "meaning_words": ["老板", "给", "我", "一百万"]}
+    ]
+  },
   {
     "lesson_id": 8.1,
     "vocabulary": [
