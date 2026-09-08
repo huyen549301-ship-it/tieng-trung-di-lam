@@ -269,7 +269,7 @@
       {"word": "快", "meaning": "nhanh, mau chóng"}
     ],
     "arrange_sentences": [
-      {"word": "Hình như máy in của tôi hỏng rồi", "meaning_words": ["好像", "我", "的", "打印机", "坏", "了"]},
+      {"word": "Hình như máy in của tôi hỏng rồi", "meaning_words": ["我", "的", "打印机", "好像", "坏", "了"]},
       {"word": "Bạn gọi điện cho giám đốc Vương đi", "meaning_words": ["你", "给", "王经理", "打电话", "吧"]},
       {"word": "Bạn tìm tôi có việc gì không", "meaning_words": ["你", "找", "我", "有", "什么", "事", "吗"]},
       {"word": "Nghe nói bạn đang học tiếng Trung", "meaning_words": ["听说", "你", "在", "学", "中文"]},
