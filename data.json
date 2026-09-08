@@ -279,7 +279,7 @@
       {"word": "Bạn mua cho ai vậy", "meaning_words": ["你", "给", "谁", "买", "啊"]},
       {"word": "Bạn có mang theo tiền không", "meaning_words": ["你", "带", "钱", "吗"]},
       {"word": "Tôi không mang theo tiền mặt", "meaning_words": ["我", "没", "带", "现金"]},
-      {"word": "Đồng nghiệp mua cho tôi 2 ly trà sữa", "meaning_words": ["同事", "给", "我", "买", "一杯", "奶茶"]},
+      {"word": "Đồng nghiệp đã mua cho tôi 2 ly trà sữa", "meaning_words": ["同事", "给", "我", "买了", "一杯", "奶茶"]},
       {"word": "Tôi có chuyện muốn nói với bạn", "meaning_words": ["我", "有", "事", "想", "跟你", "说"]},
       {"word": "Ông chủ cho tôi 1 triệu", "meaning_words": ["老板", "给", "我", "一百万"]}
     ]
